@@ -1,0 +1,28 @@
+{
+  "name": "my-test-action2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && ncc build -o dist/ src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bilalshahzad139/my-test-action2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bilalshahzad139/my-test-action2/issues"
+  },
+  "homepage": "https://github.com/bilalshahzad139/my-test-action2#readme",
+  "dependencies": {
+    "@actions/core": "1.8.2",
+    "@actions/github": "5.0.3",
+    "@tsconfig/node14": "*",
+    "@types/node": "14.14.20",
+    "@vercel/ncc": "0.27.0",
+    "typescript": "4.1.5"
+  }
+}
